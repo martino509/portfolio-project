@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -272,6 +272,117 @@ margin: 0px 0px 16px;
 .card:hover .icon i{
  color: #fff;
 
+}
+
+/*secton tree*/
+.about-me{
+  text-align: center;
+  line-height: 1.5;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+}
+.about-me h1{
+  color: #fff;
+  font-family: poppins;
+}
+
+.about-me p{
+  color: #fff;
+  font-family: poppins;
+}
+.content img{
+ margin-left: 0px;
+}
+.about{
+  width: 100%;
+  padding: 78px 0px;
+
+}
+.about-text {
+  
+  color: #fff;
+  font-size: 16px;
+  font-family: poppins;
+  margin: 35px;
+
+}
+
+.text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px ;
+  
+
+}
+.content h1{
+  margin: 0px 0px 10px 0px;
+}
+.content{
+  width: 1280px;
+  margin: 95%;
+  margin: 0 auto;
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: -116px;
+}
+
+@media screen and (max-width: 1180px){
+    .about{
+      width: 100%;
+      height: auto;
+     
+    }
+
+    .about-text{
+      width: 80%;
+      height: auto;
+      display: block;
+      
+    }
+
+    .content{
+      float: none;
+      width: 80%;
+    }
+    
+}
+@media screen and (max-width: 768px){
+  .about-text{
+    width: 80%;
+    color: #fff;
+    margin: auto;
+    display: block;
+
+  }
+  .content{
+    float: none;
+    width: 100%;
+    display: block;
+    align-items: center;
+  }
+  .info{
+    display: block;
+    margin-top: 20px;
+    
+    justify-content: space-between;
+   padding: auto;
+    font-size: 15px;
+    text-align: center;
+    
+  }
 }
 
 
